@@ -48,7 +48,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sun.xml.dtd-parser</groupId>
     <artifactId>dtd-parser</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1.jboss-1</version>
     <packaging>jar</packaging>
     <name>DTD Parser</name>
     <description>SAX-like API for parsing XML DTDs.</description>
@@ -127,4 +127,11 @@
         </plugins>
     </reporting>
 
+    <distributionManagement>
+        <repository>
+            <id>jboss-releases-repository</id>
+            <name>JBoss Releases Repository</name>
+            <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 </project>
